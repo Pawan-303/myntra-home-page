@@ -1,0 +1,60 @@
+nav{
+    background-color: blueviolet;
+    height: 80px;
+    color: red;
+    border: 2px solid black;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color: white;
+    margin: 5px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.logo{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.items1 a{
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.items2{
+    text-decoration: none;
+}
+
+.box{
+    display: grid;
+
+}
+
+.section{
+    margin: 2px;
+    border: 2px solid blue;
+    height: 5000px;
+    background-color: goldenrod;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px 220px;
+    grid-template-rows: 220px 220px 220px 220px 220px;
+    margin: 10px;
+    padding: 10px;
+}
+
+box img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
